@@ -1,0 +1,45 @@
+.container{
+    box-shadow: 0rem 0rem 0rem 0rem rgb(0 0 0 / 0%);
+    background-color: #ffd300;
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box
+
+}
+
+.section-one-large-text{
+    font-size: clamp(3.1111111111111rem, 13.4vw, 10rem) !important;
+    font-family: "MaisonNeue-Medium", sans-serif;
+    font-weight: 400;
+    font-variation-settings: inherit;
+    font-style: normal;
+    display: block;
+    line-height: 76% !important;
+    letter-spacing: -5px !important;
+}
+
+
+.section-one-large-text-container{
+    padding-top: 320px;
+    padding-bottom: 80px;
+}
+.section-one-large-text-inner-container{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .section-one-large-text-container{
+        padding-top: 200px;
+    }
+    .section-one-large-text{
+        line-height: 90% !important;
+    }
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

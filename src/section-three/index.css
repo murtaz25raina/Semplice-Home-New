@@ -1,0 +1,73 @@
+.container-section-three{
+    padding-top: 3.3333333333333335rem;
+    padding-bottom: 3.3333333333333335rem;
+    box-shadow: 0rem 0rem 0rem 0rem rgb(0 0 0 / 0%);
+    background-image: url(https://www.semplice.com/wp-content/uploads/2022/04/The-Editor-BG.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-attachment: scroll;
+    background-color: #000000;
+    max-width: 1440px;
+    padding: 3.33333rem;
+
+}
+
+.divider-section-three{
+    background: #fff;
+    height: 2px;
+    margin-top: 4px;
+    margin-left: 30px;
+    opacity: .15;
+    display: block;
+}
+
+.divider-text-container{
+    line-height: 14px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+}
+
+
+
+.by-designers-for-designers{
+    color: rgb(104, 140, 107);
+    letter-spacing: 0.056rem; 
+    font-size: 14px;
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.the-editor{
+    padding-top: 3.888888888888889rem;
+    color: rgb(126, 165, 181);
+    letter-spacing: -0.167rem;
+    /* font-size: 87px; */
+    font-size: clamp(2.7777777777778rem, 5.7vw, 5rem) !important
+}
+
+.section-three-text{
+    color: rgb(255, 255, 255);
+    font-family: "Maison Neue Light", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(0.94444444444444rem, 3.6vw, 2.3333333333333rem) !important;
+    line-height: 130% !important;
+    letter-spacing: 0rem !important;
+    padding-top: 0.8333333333333334rem;
+    padding-bottom: 9.444444444444445rem;
+    opacity: 0.7;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+ .container-section-three{
+    padding: 20px;
+ }
+ .section-three-text{
+    padding-bottom: 5.444444444444445rem;
+ }
+
+}
