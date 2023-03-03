@@ -174,7 +174,7 @@
 
 .image-name-desg{
     background: #ffd300;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 .vertical-divider{
@@ -191,6 +191,8 @@
   .container-section-four-c{
     padding-left: 20px;
     padding-right: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
   }
   .see-the-winners,
   .see-their-portfolios {
@@ -198,6 +200,9 @@
     outline: none;
     user-select: none;
   }
+  .vertical-divider{
+    display: none;
+}
 }
 
 
@@ -237,6 +242,7 @@
     }
     .container-section-four-c{
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
 
   }

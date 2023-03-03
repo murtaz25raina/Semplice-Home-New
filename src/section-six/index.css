@@ -1,0 +1,251 @@
+.section-six-container{
+  padding: 3.33333rem;
+  max-width: 1440px;
+  box-sizing: border-box;
+  background: white;
+}
+
+
+.divider-section-six {
+    background: #000;
+    height: 2px;
+    margin-top: 4px;
+    margin-left: 30px;
+    opacity: 0.15;
+    display: block;
+  }
+  .design-for-the-future {
+    color: rgb(0, 0, 0);
+    font-size: 0.778rem;
+    line-height: 0.778rem;
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .divider-text-container-section-six {
+    line-height: 0.778rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+  }
+
+
+  .features-that-elevate-your-work{
+    font-size: clamp(2.1111111111111rem, 9vw, 5rem) !important;
+    line-height: 96% !important;
+    letter-spacing: -0.13888888888889rem !important;
+  }
+
+  .features-that-elevate-your-work-container{
+    padding-top: 2.7777777777777777rem;
+    padding-bottom: 1.6666666666666667rem;
+    width: 100%;
+  }
+  .section-six-container-first{
+    padding-top: 3.3333333333333335rem;
+    padding-bottom: 3.3333333333333335rem;
+    background-position: top left;
+    background-attachment: scroll;
+    background-color: #ffffff;
+  }
+
+  .section-six-container-second{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  .section-six-container-second-right-block{
+    width: 50%;
+  }
+
+  .section-six-container-second-left-block{
+    width: 50%;
+    padding-top: 6.666666666666667rem;
+    padding-bottom: 6.666666666666667rem;
+    background-color: #000000;
+  }
+
+  .section-six-container-second-right-block-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-six-container-second-left-block-text-container{
+    padding-left: 5.555555555555555rem;
+    box-sizing: border-box;
+  }
+  .custom-animations{
+    letter-spacing: -0.078rem;
+    color: rgb(255, 255, 255);
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 2.889rem;
+  }
+
+.hover-effects-scroll-animations{
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.022rem;
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.333rem;
+    line-height: 1.778rem;
+    padding-top: 1.6666666666666667rem;
+    padding-bottom: 1.6666666666666667rem;
+    opacity: 0.7;
+}
+
+
+
+
+.learn-more-button{
+    background-color: transparent;
+    border-width: 0.05555555555555555rem;
+    border: 1px solid #ffffff;
+    font-size: 0.6666666666666666rem;
+    color: #ffffff;
+    letter-spacing: 0.044444444444444446rem;
+    border-radius: 0.3333333333333333rem;
+    padding-bottom: 0.4444444444444rem;
+    padding-left: 1.5555555555555556rem;
+    padding-right: 1.5555555555555556rem;
+    padding-top: 0.4444444444444444rem;
+    width: fit-content;
+    line-height: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.6666666666666667rem;
+}
+
+.learn-more-button:hover{
+    background-color: white;
+    color: #000;
+    font-weight: 700;
+}
+
+.artwork-by-media-work{
+    font-size: 0.889rem;
+    opacity: 0.4;
+    color: rgb(255, 255, 255);
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.section-six-container-third{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.section-six-container-third-left-block{
+    width: 50%;
+    background-color: #ffd300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+.section-six-container-third-right-block{
+    width: 50%;
+    background-color: #eff1f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-type{
+    letter-spacing: -0.078rem;
+    color: rgb(0, 0, 0);
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 2.889rem;
+    text-align: center;
+    padding-top: 3.3333333333333335rem;
+}
+
+.we-are-type-lovers-too{
+    padding-top: 1.6666666666666667rem;
+    padding-right: 4.444444444444445rem;
+    padding-bottom: 1.6666666666666667rem;
+    padding-left: 4.444444444444445rem;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 1.333rem;
+    line-height: 1.778rem;
+}
+
+.section-six-container-third-learn-more{
+    background-color: transparent;
+    border-width: 0.05555555555555555rem;
+    border: 1px solid #000;
+    font-size: 0.6666666666666666rem;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.044444444444444446rem;
+    border-radius: 0.3333333333333333rem;
+    padding-bottom: 0.4444444444444rem;
+    padding-left: 1.5555555555555556rem;
+    padding-right: 1.5555555555555556rem;
+    padding-top: 0.4444444444444444rem;
+    width: fit-content;
+    line-height: 1rem;
+    cursor: pointer;
+}
+.section-six-container-third-learn-more:hover{
+    color: white;
+    background-color: #000;
+    font-size: 700;
+}
+
+  @media only screen and (max-width: 1000px) {
+    .section-six-container{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .section-six-container-first{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .section-six-container-second, .section-six-container-third{
+        flex-wrap: wrap;
+    }
+    .section-six-container-second-right-block{
+        width: 100%;
+      }
+    
+      .section-six-container-second-left-block{
+        width: 100%;
+        padding-top: 6.666666666666667rem;
+        padding-bottom: 6.666666666666667rem;
+        background-color: #000000;
+      }
+      .section-six-container-second-left-block-text-container{
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      .custom-animations{
+        font-size: 2rem;
+      }
+      .section-six-container-third-left-block{
+        width: 100%;
+      }
+      .section-six-container-third-right-block{
+        width: 100%;
+      }
+       
+
+      .we-are-type-lovers-too{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+  
