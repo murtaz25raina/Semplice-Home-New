@@ -205,47 +205,104 @@
     font-size: 700;
 }
 
-  @media only screen and (max-width: 1000px) {
+.section-six-container-fourth{
+
+  display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.section-six-container-fourth-left-block{
+  background-color: #737373;
+  width: 58.3333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.section-six-container-fourth-left-block-video{
+  height: auto;
+}
+
+.section-six-container-fourth-right-block{
+  background-color: #737373;
+ width: 41.66666%;
+ padding-top: 5.555555555555555rem;
+ padding-bottom: 5.555555555555555rem;
+ padding-left: 5.555555555555555rem;
+ box-sizing: border-box;
+}
+.an-immediate-homepage
+{
+  padding-top: 1.6666666666666667rem;
+  padding-right: 9rem;
+  padding-bottom: 1.6666666666666667rem;
+}
+
+
+.img-visible-only-below-wd-1000{
+  display: none;
+}
+
+  @media only screen and (max-width: 1250px) {
     .section-six-container{
       padding-left: 0px;
       padding-right: 0px;
     }
     .section-six-container-first{
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    .section-six-container-second, .section-six-container-third{
-        flex-wrap: wrap;
-    }
-    .section-six-container-second-right-block{
-        width: 100%;
-      }
-    
-      .section-six-container-second-left-block{
-        width: 100%;
-        padding-top: 6.666666666666667rem;
-        padding-bottom: 6.666666666666667rem;
-        background-color: #000000;
-      }
-      .section-six-container-second-left-block-text-container{
-        padding-right: 20px;
-        padding-left: 20px;
-      }
-
-      .custom-animations{
-        font-size: 2rem;
-      }
-      .section-six-container-third-left-block{
-        width: 100%;
-      }
-      .section-six-container-third-right-block{
-        width: 100%;
-      }
-       
-
-      .we-are-type-lovers-too{
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
+
   
+
+@media only screen and (max-width: 1000px){
+  .section-six-container-second, .section-six-container-third, .section-six-container-fourth{
+    flex-wrap: wrap;
+} 
+.section-six-container-second-right-block{
+  width: 100%;
+}
+
+.section-six-container-second-left-block{
+  width: 100%;
+  padding-top: 6.666666666666667rem;
+  padding-bottom: 6.666666666666667rem;
+  background-color: #000000;
+}
+.section-six-container-second-left-block-text-container{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.custom-animations{
+  font-size: 2rem;
+}
+.section-six-container-third-left-block{
+  width: 100%;
+}
+.section-six-container-third-right-block{
+  width: 100%;
+}
+ 
+
+.we-are-type-lovers-too{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.section-six-container-fourth-left-block{
+   width: 100%;
+}
+.section-six-container-fourth-right-block{
+   width: 100%;
+}
+.section-six-container-fourth-left-block-video{
+ height: auto;
+}
+
+.img-visible-only-below-wd-1000{
+  display: block;
+  height: 12px;
+  width: 100%;
+}
+}
