@@ -295,6 +295,11 @@
 }
 .section-six-container-fourth-right-block{
    width: 100%;
+   padding-left: 1rem;
+   padding-right:1rem;
+}
+.an-immediate-homepage{
+  padding-right:2rem;
 }
 .section-six-container-fourth-left-block-video{
  height: auto;

@@ -5,7 +5,7 @@ const SectionSix = () => {
   return (
     <div className="section-six-container">
       <div className="section-six-container-first">
-        <div className="divider-text-container-section-four">
+        <div className="divider-text-container-section-six">
           <span className="design-for-the-future">DESIGN FOR THE FUTURE</span>
           <span className="divider-section-six"></span>
         </div>
@@ -115,7 +115,7 @@ const SectionSix = () => {
           </div>
           <div className="learn-more-button">LEARN MORE</div>
           <div className="artwork-by-media-work">
-            ARTWORK BY
+            ARTWORK BY &nbsp;
             <span style={{ textDecoration: "underline" }}>FRENSS</span>
           </div>
         </div>
