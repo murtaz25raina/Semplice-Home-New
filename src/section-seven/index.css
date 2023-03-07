@@ -58,13 +58,16 @@
 }
 
 .create-something-original-grid-img{
-    height: 40px;
+    height: 102px;
 }
 .create-something-original-grid-img-text
 {
-    color:#fff;
+    /* color:#fff;
 font-size: 15px;
-    margin-top: 50px;
+    margin-top: 50px; */
+    color: #8E8E8E;
+    margin-top: 100px;
+    font-size: 20px;
 }
 .create-something-original-grid-img-container{
     border-radius: 12px;
@@ -117,12 +120,22 @@ font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     
     .create-something-original-grid{
         padding-top: 8.333333333333334rem;
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .create-something-original-grid-img{
+        height: 40px;
+    }
+    .create-something-original-grid-img-text
+    {
+        color:#fff;
+    font-size: 15px;
+        margin-top: 50px;
     }
 }

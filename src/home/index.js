@@ -1,5 +1,7 @@
 import Header from '../header';
+import SectionEight from '../section-eight';
 import SectionFour from '../section-four';
+import SectionNine from '../section-nine';
 import SectionOne from '../section-one';
 import SectionSeven from '../section-seven';
 import SectionSix from '../section-six';
@@ -16,6 +18,8 @@ const Home = ()=>{
             <SectionFour/>
             <SectionSix/>
             <SectionSeven/>
+            <SectionEight/>
+            <SectionNine/>
         </div>
     )
 }

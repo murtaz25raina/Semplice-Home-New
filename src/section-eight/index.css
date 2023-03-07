@@ -1,0 +1,116 @@
+.section-eight-container{
+        padding: 3.33333rem;
+        max-width: 1440px;
+        box-sizing: border-box;
+        background-color: #000000;
+}
+
+.divider-section-eight {
+    background: white;
+    height: 2px;
+    margin-top: 4px;
+    margin-left: 30px;
+    opacity: 0.15;
+    display: block;
+  }
+  .the-semplice-showcase {
+    color: white;
+    font-size: 0.778rem;
+    line-height: 0.778rem;
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .divider-text-container-section-eight {
+    line-height: 0.778rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr;
+  }
+
+  .proudly-serving-niche-community{
+    font-size: clamp(2.1111111111111rem, 9vw, 5rem) !important;
+    line-height: 96% !important;
+    letter-spacing: -0.13888888888889rem !important;
+    color: white;
+    font-family: "Maison Neue Demi", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 2.7777777777777777rem;
+  }
+
+
+
+  .see-inspiring-portfolios {
+    color: rgb(203, 203, 203);
+    cursor: pointer;
+    font-size: clamp(1.1111111111111rem, 3vw, 1.7777777777778rem) !important;
+    line-height: 160% !important;
+    letter-spacing: 0rem !important;
+    margin-top: 30px;
+  }
+  
+  .see-inspiring-portfolios:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgba(255,255,255,.3);
+  }
+
+
+    
+    .marquee-content-top {
+      display: flex;
+      animation: scrollingRight 10s linear infinite;
+    }
+    
+    .marquee-item {
+      flex: 0 0 25vw;
+      margin-right: 1.1111111111rem ;
+      width: 30%;
+      display: inline-block;
+    /*   flex: 0 0 20vw; */
+    /*   margin: 0 2vw; */
+    }
+    
+    .marquee-item img {
+      display: block;
+      width: 100%;
+    /*   padding: 0 20px; */
+    }
+
+    .marquee-container{
+        margin-top: 9.444444444444445rem;
+    }
+    
+    @keyframes scrollingRight {
+      0% { transform: translateX(0); }
+      100% { transform: translatex(-144vw); }
+    }
+
+
+
+    .marquee-content-bottom {
+        display: flex;
+        animation: scrollingLeft 10s linear infinite;
+        padding-top: 1.11111111rem;
+        padding-bottom: 1.111111111rem;
+      }
+      
+      
+      @keyframes scrollingLeft {
+        0% { transform: translateX(-144vw); }
+        100% { transform: translatex(0); }
+      }
+
+
+@media only screen and (max-width: 1000px) {
+    .section-eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .marquee-container{
+        margin-top: 3.444444444444445rem;
+    }
+}
